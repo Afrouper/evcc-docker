@@ -1,0 +1,20 @@
+log: info
+levels:
+  cache: error
+
+network:
+  schema: https
+  host: localhost
+  port: 7070
+
+site:
+  - title: My House
+
+loadpoints:
+  - title: Dummy Loadpoint
+    charger: dummyLoadpoint
+
+chargers:
+  - name: dummyLoadpoint
+    type: template
+    template: demo-charger

@@ -1,0 +1,4 @@
+localhost:7070 {
+    tls /config/server.crt /config/server.key
+    reverse_proxy evcc:7070
+}
